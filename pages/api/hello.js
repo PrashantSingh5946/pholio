@@ -7,9 +7,8 @@ export default (req, res) => {
     console.log(req.body)
 
 
-    axios.post('http://riviatech.eastus.cloudapp.azure.com:1337/answer', JSON.stringify(req.body))
+    axios.post('http://riviatech.eastus.cloudapp.azure.com:1337/answer', {"name":req.body.name,"content":req.body.content})
     .then(function (response) {
-      console.log(response);
       res.statusCode=200;
       res.json({name:"Record successfully entered"})
     })
