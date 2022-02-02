@@ -21,7 +21,7 @@ export default (req, res) => {
   } else if (req.method === 'GET'){
     axios.get('http://riviatech.eastus.cloudapp.azure.com:1337/question')
     .then(function (response) {
-      res.end(response)
+      res.json(response)
     })
     .catch(function (error) {
       console.log(error);
@@ -29,5 +29,11 @@ export default (req, res) => {
     });
     
   }
+  else {
+    // Handle any other HTTP method
+    res.statusCode = 200
+    res.json({ name: 'Updated John Doe' })
+  }
+
 
 }
