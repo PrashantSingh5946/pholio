@@ -7,7 +7,7 @@ export default (req, res) => {
     console.log(req.body)
 
 
-    axios.post('http://riviatech.eastus.cloudapp.azure.com:1337/answer', req.body)
+    axios.post('http://riviatech.eastus.cloudapp.azure.com:1337/answer', JSON.stringify(req.body))
     .then(function (response) {
       console.log(response);
       res.statusCode=200;
