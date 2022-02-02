@@ -10,18 +10,20 @@ export default (req, res) => {
     axios.post('http://riviatech.eastus.cloudapp.azure.com:1337/answer', req.body)
     .then(function (response) {
       console.log(response);
+      res.statusCode=200;
+      res.json({name:"Record successfully entered"})
     })
     .catch(function (error) {
       console.log(error);
+      res.statusCode=400;
+      res.json(error)
     });
 
 
-    res.statusCode = 200
-    res.json({ name: 'Data forwarded' })
   } else {
     // Handle any other HTTP method
     res.statusCode = 200
-    res.json({ name: 'John Doe' })
+    res.json({ name: 'Updated John Doe' })
   }
 
 }
