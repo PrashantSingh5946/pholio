@@ -21,7 +21,7 @@ export default (req, res) => {
   } else {
     // Handle any other HTTP method
     res.statusCode = 200
-    res.json(undefined)
+    res.json(false)
   }
 
 }
