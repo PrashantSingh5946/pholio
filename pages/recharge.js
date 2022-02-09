@@ -29,7 +29,7 @@ export default function Recharge() {
   return (
     <div class="card">
       <div class="card-body">
-        <form onSubmit={registerUser}>
+        <form onSubmit={(e) => {registerUser(e)}}>
           <div className="form-group pt-2">
             <input
               type="password"
