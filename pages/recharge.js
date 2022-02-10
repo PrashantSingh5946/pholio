@@ -9,7 +9,7 @@ export default function Recharge() {
   const registerUser = async (event) => {
     event.preventDefault();
 
-    const res = await fetch("http://riviatech.eastus.cloudapp.azure.com:1337/recharge", {
+    const res = await fetch("api/recharge", {
       body: JSON.stringify({
         key: keyRef.current.value,
         amount: amountRef.current.value,
@@ -27,8 +27,8 @@ export default function Recharge() {
   };
 
   return (
-    <div class="card">
-      <div class="card-body">
+    <div className="card">
+      <div className="card-body">
         <form onSubmit={(e) => {registerUser(e)}}>
           <div className="form-group pt-2">
             <input
@@ -53,7 +53,7 @@ export default function Recharge() {
               required
             ></input>
             <div className="form-row">
-              <label for="exampleFormControlSelect1">Select Amount</label>
+              <label htmlFor="exampleFormControlSelect1">Select Amount</label>
               <select className="form-control" ref={amountRef} required>
                 <option>25</option>
                 <option>50</option>

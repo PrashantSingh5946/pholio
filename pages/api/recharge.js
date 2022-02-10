@@ -5,7 +5,18 @@ export default (req, res) => {
   if (req.method === "POST") {
     // Process a POST request
     res.statusCode = 200;
-    res.json(req.body);
+    axios
+      .post("http://riviatech.eastus.cloudapp.azure.com:1337/recharge", {
+        "key":req.body.key,"amount":req.body.amount,"id":req.body.id,"transactionId":req.body.transactionId
+      })
+      .then(function (response) {
+        res.statusCode = 200;
+        res.json({ name: "Record successfully entered" });
+      })
+      .catch(function (error) {
+        console.log(error);
+        res.json({ error });
+      });
   } else {
     // Handle any other HTTP method
     res.statusCode = 200;
