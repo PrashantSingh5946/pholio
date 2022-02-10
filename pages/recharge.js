@@ -8,7 +8,7 @@ export default function Recharge() {
   const transactionRef = useRef();
   const registerUser = async (event) => {
     event.preventDefault();
-
+    console.log(event);
     const res = await fetch("api/recharge", {
       body: JSON.stringify({
         key: keyRef.current.value,
@@ -36,6 +36,7 @@ export default function Recharge() {
               className="form-control"
               placeholder="Key"
               ref={keyRef}
+              name="key"
               required
             ></input>
             <input
@@ -43,18 +44,20 @@ export default function Recharge() {
               className="form-control mt-2"
               placeholder="User ID"
               ref={idRef}
+              name="user_id"
               required
             ></input>
              <input
               type="text"
               className="form-control mt-2"
               placeholder="Transaction ID"
+              name="transaction_id"
               ref={transactionRef}
               required
             ></input>
             <div className="form-row">
               <label htmlFor="exampleFormControlSelect1">Select Amount</label>
-              <select className="form-control" ref={amountRef} required>
+              <select className="form-control" name="amount" ref={amountRef} required>
                 <option>25</option>
                 <option>50</option>
                 <option>100</option>
