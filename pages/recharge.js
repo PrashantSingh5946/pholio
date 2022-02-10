@@ -9,7 +9,6 @@ export default function Recharge() {
   const recharge = async (event) => {
     event.preventDefault();
     console.log(event);
-    alert("Debugger");
     const res = await fetch("api/recharge", {
       body: JSON.stringify({
         key: keyRef.current.value,

@@ -1,5 +1,6 @@
 // next.config.js
 module.exports = {
+  reactStrictMode: true,
   async headers() {
     return [
       {
@@ -14,4 +15,5 @@ module.exports = {
       }
     ]
   }
+
 };
