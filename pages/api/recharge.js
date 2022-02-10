@@ -11,7 +11,7 @@ export default (req, res) => {
       })
       .then(function (response) {
         res.statusCode = 200;
-        res.json({ name: "Record successfully entered" });
+        res.json({ response });
       })
       .catch(function (error) {
         console.log(error);
