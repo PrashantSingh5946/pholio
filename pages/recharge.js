@@ -30,7 +30,7 @@ export default function Recharge() {
   return (
     <div className="card">
       <div className="card-body">
-        <form action="/api/recharge" method="post">
+        <form onSubmit={recharge}>
           <div className="form-group pt-2">
             <input
               type="password"
