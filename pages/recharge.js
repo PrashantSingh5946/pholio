@@ -66,9 +66,9 @@ export default function Recharge() {
               </select>
             </div>
           </div>
-          <button type="submit" className="btn btn-primary mt-2">
+          <input type="submit" className="btn btn-primary mt-2">
             Recharge
-          </button>
+          </input>
         </form>
       </div>
     </div>
