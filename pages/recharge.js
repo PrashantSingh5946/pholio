@@ -30,7 +30,7 @@ export default function Recharge() {
   return (
     <div className="card">
       <div className="card-body">
-        <form onSubmit={recharge}>
+        <form>
           <div className="form-group pt-2">
             <input
               type="password"
@@ -67,7 +67,7 @@ export default function Recharge() {
               </select>
             </div>
           </div>
-          <button type="submit" className="btn btn-primary mt-2">
+          <button onClick={recharge} className="btn btn-primary mt-2">
             Recharge
           </button>
         </form>
