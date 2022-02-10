@@ -11,7 +11,7 @@ export default (req, res) => {
       })
       .then(function (response) {
         res.statusCode = 200;
-        res.json({ response });
+        res.json(true);
       })
       .catch(function (error) {
         console.log("Error",error);
