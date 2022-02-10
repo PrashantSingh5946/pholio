@@ -30,7 +30,7 @@ export default Recharge = () => {
   return (
     <div className="card">
       <div className="card-body">
-        <form onSubmit={this.recharge}>
+        <form onSubmit={recharge}>
           <div className="form-group pt-2">
             <input
               type="password"
