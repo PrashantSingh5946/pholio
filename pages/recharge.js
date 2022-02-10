@@ -30,7 +30,7 @@ export default function Recharge() {
   return (
     <div className="card">
       <div className="card-body">
-        <form onSubmit={(e)=>{alert("Debugger"); recharge(e); }}>
+        <form onSubmit={this.recharge}>
           <div className="form-group pt-2">
             <input
               type="password"
