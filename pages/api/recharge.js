@@ -14,7 +14,8 @@ export default (req, res) => {
         res.json({ response });
       })
       .catch(function (error) {
-        console.log(error);
+        console.log("Error",error);
+        res.statusCode = 400;
         res.json({ error });
       });
   } else {
