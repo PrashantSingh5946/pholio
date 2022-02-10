@@ -7,8 +7,8 @@ export default function Recharge() {
   const idRef = useRef();
   const transactionRef = useRef();
   const recharge = async (event) => {
-    event.preventDefault();
-    console.log(event);
+    //event.preventDefault();
+    //console.log(event);
     const res = await fetch("api/recharge", {
       body: JSON.stringify({
         key: keyRef.current.value,
