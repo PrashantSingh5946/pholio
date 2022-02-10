@@ -6,7 +6,7 @@ export default function Recharge() {
   const amountRef = useRef();
   const idRef = useRef();
   const transactionRef = useRef();
-  const registerUser = async (event) => {
+  const recharge = async (event) => {
     event.preventDefault();
     console.log(event);
     alert("Debugger");
@@ -30,7 +30,7 @@ export default function Recharge() {
   return (
     <div className="card">
       <div className="card-body">
-        <form onSubmit={registerUser}>
+        <form onSubmit={(e)=>{alert("Debugger"); recharge(e); }}>
           <div className="form-group pt-2">
             <input
               type="password"
