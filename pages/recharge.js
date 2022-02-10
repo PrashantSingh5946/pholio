@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useRef } from "react";
 
-export default Recharge = () => {
+export default function Recharge() {
   const keyRef = useRef();
   const amountRef = useRef();
   const idRef = useRef();
