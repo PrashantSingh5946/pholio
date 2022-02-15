@@ -8,45 +8,33 @@ const userData = {
   address: "Lucknow, Uttar Pradesh, India.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Trello Clone",
+      link: "https://prashantsingh5946.github.io/trello/",
+      imgUrl: "/trello.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Food Order App",
+      link: "https://prashantsingh5946.github.io/food/",
+      imgUrl: "/food.png",
+    },
+    
+    {
+      title: "Mac OSX UI",
+      link: "https://prashantsingh5946.github.io/bigsur/",
+      imgUrl: "/bigsur.png",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "React Carousel",
+      link: "https://prashantsingh5946.github.io/carousel/",
+      imgUrl: "/carousel.png",
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      title: "Nine Men's Morris Game",
+      link: "https://prashantsingh5946.github.io/morris/",
+      imgUrl: "/morris.png",
     },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
-    },
+   
+    
   ],
   about: {
     title:
