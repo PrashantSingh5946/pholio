@@ -148,7 +148,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--yWDgvG-B--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bku3yb1w7nnyatyekvsq.jpeg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -164,11 +164,11 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
+                src="https://logodix.com/logo/1764875.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlkZIuZIuTewkMV2lFOsIHUiMgnfsUhhttEVYTwvtkTZqHirN-DbZ3yiS2qyriJz-Npn4&usqp=CAU"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -180,7 +180,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/074/full/nextjs.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -188,7 +188,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                src="https://www.servernoobs.com/wp-content/uploads/2016/01/mongodb-logo-1.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

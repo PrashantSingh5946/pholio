@@ -57,8 +57,8 @@ const userData = {
       `I stepped right after high school into an MNC as a software engineer, after that there was just no looking back, I now have React,Node Js, TypeScript, C#, Python, MongoDB and Express in my arsenal.`,
       `I have also spent quite some time in API and UI automation using Postman,Cypress, Testcafe and Selenium (I know it is ancient).`
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "Microsoft Dynamics 365",
+    currentProjectUrl: "https://dynamics.microsoft.com/en-us/",
   },
   experience: [
     {
@@ -66,7 +66,7 @@ const userData = {
       company: "HCL Technologies",
       year: "2019",
       companyLink: "https://www.hcltech.com/",
-      desc: "(Development-Automation-Learning).repeat",
+      desc: "(Development-Automation-Learning).repeat(true)",
     },
     {
       title: "Intern",
